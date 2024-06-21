@@ -33,7 +33,7 @@ const AboutUs = () => {
         <div className="">
           <h2 className="text-[2rem] mt-5 text-center xl:text-left ">Management Team</h2>
         </div>
-        <div className="flex mt-5 xl:w-[1281px] p-5 gap-y-5 xl:flex-row justify-center flex-wrap  rounded-[5px] md:justify-between">
+        <div className="flex mt-5  p-5 gap-y-5 xl:flex-row justify-center flex-wrap  rounded-[5px] md:justify-between">
           {ManagementTeam.map((team) => {
             const { image, name, role } = team;
             return (
@@ -49,7 +49,7 @@ const AboutUs = () => {
         </div>
         <div className="xl:ml-20 lg:ml-20">
           <h2 className="capitalize text-[2rem]  mt-5 text-center xl:ml-0 ">achievement/awards</h2>
-          <div className="flex m-auto  flex-col justify-center mt-5 xl:w-[1081px] xl:flex-nowrap gap-y-5 w-[300px]  md:flex-row  md:gap-x-32 ">
+          <div className="flex m-auto xl:m-0  flex-col justify-center mt-5 xl:w-[1081px] xl:flex-nowrap gap-y-5 w-[300px]  md:flex-row  md:gap-x-32 ">
             <img src={award1} alt="" />
             <img src={award2} alt="" />
           </div>

@@ -23,7 +23,7 @@ const Projects = () => {
 
           <div>
             <h2 className='xl:text-[2rem] text-[1.5rem] text-center xl:text-left lg:text-left capitalize font-bold mt-10 '>completed architectural projects</h2>
-            <div className='flex xl:flex-row md:flex-row md:flex-wrap flex-col align-center xl:gap-32 xl:mt-5 px-5 '>
+            <div className='flex xl:flex-row md:flex-row md:flex-wrap flex-col align-center  xl:mt-5 px-5 '>
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theAvenue} alt="completed building 2" />
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit'  src={theAlley} alt="completed building 3" />
               <img  className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit'src={theSpace} alt="completed building 1" />
@@ -32,7 +32,7 @@ const Projects = () => {
 
           <div>
             <h2 className='xl:text-[2rem] text-[1.5rem] text-center xl:text-left lg:text-left font-bold mt-10 capitalize'>completed construction projects</h2>
-            <div className='flex xl:flex-row flex-col md:flex-row md:flex-wrap  align-center xl:gap-32 xl:mt-5 px-5'>
+            <div className='flex xl:flex-row flex-col md:flex-row md:flex-wrap  align-center  xl:mt-5 px-5'>
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theAvenue2} alt="completed building 2" />
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theAlley2} alt="completed building 3" />
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theSpace2} alt="completed building 1" />
@@ -41,7 +41,7 @@ const Projects = () => {
 
           <div>
             <h2 className='xl:text-[2rem] text-[1.5rem] text-center xl:text-left lg:text-left font-bold mt-10 capitalize '>ongoing architectural projects</h2>
-            <div className='flex xl:flex-row flex-col md:flex-row md:flex-wrap align-center xl:gap-32 xl:mt-5 px-5'>
+            <div className='flex xl:flex-row flex-col md:flex-row md:flex-wrap align-center  xl:mt-5 px-5'>
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theAvenue3} alt="completed building 2" />
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theAlley3} alt="completed building 3" />
               <img className='mx-auto mt-5 xl:ml-0  w-[300px] xl:w-fit' src={theSpace3} alt="completed building 1" />
